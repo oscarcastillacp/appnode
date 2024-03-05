@@ -5,5 +5,11 @@ const router= Router();
 router.get('/pin',ping);
 
 
+router.get('/prueba',(req,res)=>{
+
+    res.json("Soy la prueba");
+});
+
+
 
 export default router;
